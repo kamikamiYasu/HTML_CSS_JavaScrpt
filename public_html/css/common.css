@@ -1,0 +1,81 @@
+/* 
+    Created on : 2017/04/15, 11:02:25
+    Author     : nextn
+*/
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    color: crimson;
+    font-family: Arial, sans-serif;
+    line-height: 18px;
+    background: #000000;
+}
+div#memen{
+    background:#66ff66;
+}
+div {
+    color: #666666;
+    width: 500px;
+    margin-top:20px;
+    margin-right:auto;
+    margin-left:auto;
+}
+span {
+    color:#009900;
+}
+h1 {
+    color:#006600;
+    fonts-ize:30px;
+}
+img {
+    float:left;
+    margin-right: 20px;
+    border-color: greenyellow;
+    border-right: dotted 2px aqua; 
+}
+a{
+    font-size: 150%;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline overline;
+}
+a:hover{
+    color:red;
+    text-decoration: overline;
+    font-style: oblique;
+}
+#profile{
+    font-size: 50px;
+    font-family: monospace;
+
+}
+#go-bbb a{
+    background: url(../pix/btn2.gif) no-repeat left top;
+    width: 140px;
+    height: 36px;
+    display: block;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 36px;
+    text-align: center;  
+}
+#go-bbb a:hover{
+    background: url(../pix/btn2.gif) no-repeat right top;
+}
+#container {
+    width: 500px;
+    margin: 0px;
+    padding: 0px;
+    background:#FFFFFF;
+}
+ul{
+    list-style: square;
+}
+ol#numlist{
+    margin: 0px;
+    list-style-type: upper-latin;
+}
+li{
+    //list-style-image: url(../pix/sample.jpg);
+}

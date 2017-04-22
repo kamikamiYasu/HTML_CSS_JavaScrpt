@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017/04/22, 8:37:02
+    Author     : nextn
+*/
+div#first{
+    color:#00ffff;
+    font-size: 18px;
+}
+p.bule{
+    color:blue;
+    
+}
+div span{
+    font-size: 80%;
+    color: red;
+}
+p#iriminate::after{
+    content: "WOWOW!";
+    color: green;
+    font-size: 1.2em;
+}
+

@@ -76,6 +76,7 @@ ol#numlist{
     margin: 0px;
     list-style-type: upper-latin;
 }
-li{
-    //list-style-image: url(../pix/sample.jpg);
+.big{
+    font-size: 5.0em;
+    height: auto;
 }

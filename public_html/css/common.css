@@ -1,82 +1,79 @@
-/* 
-    Created on : 2017/04/15, 11:02:25
-    Author     : nextn
-*/
-body{
-    width: 100%;
-    margin: 0px;
-    padding: 0;
-    color: crimson;
-    font-family: Arial, sans-serif;
-    line-height: 18px;
-    background: #000000;
+body {
+	color: #333;
+        font-family: "游ゴシック";
 }
-div#memen{
-    background:#66ff66;
-}
-div {
-    color: #666666;
-    width: 500px;
-    margin-top:20px;
-    margin-right:auto;
-    margin-left:auto;
-}
-span {
-    color:#009900;
-}
-h1 {
-    color:#006600;
-    fonts-ize:30px;
-}
-img {
-    float:left;
-    margin-right: 20px;
-    border-color: greenyellow;
-    border-right: dotted 2px aqua; 
-}
-a{
-    font-size: 150%;
-    font-weight: bold;
-    color: blue;
-    text-decoration: underline overline;
-}
-a:hover{
-    color:red;
-    text-decoration: overline;
-    font-style: oblique;
-}
-#profile{
-    font-size: 50px;
-    font-family: monospace;
 
+
+p {
+	font-size: 14px;
+        line-height: 1.4em;
 }
-#go-bbb a{
-    background: url(../pix/btn2.gif) no-repeat left top;
-    width: 140px;
-    height: 36px;
-    display: block;
-    color: #FFFFFF;
-    font-size: 15px;
-    line-height: 36px;
-    text-align: center;  
+
+.pageTitle{
+	font-size: 26px;
+        background-color: #F2F2E5;
+        padding: 5px 15px;
+        line-height: 1.2em;
 }
-#go-bbb a:hover{
-    background: url(../pix/btn2.gif) no-repeat right top;
+.heading-typeA{
+	font-size: 18px;
+        color: #349FA6;
+        border-bottom: solid 1px #349FA6;
+        padding: 5px;
+        line-height: 1,33em;
 }
-#container {
-    width: 500px;
-    margin: 0px;
-    padding: 0px;
-    background:#FFFFFF;
+.heading-typeB{
+	font-size: 16px;
+        border-left: solid 5px #E3E4D9;
+        padding-left: 10px;
+        line-height: 1.37em;
 }
-ul{
-    list-style: square;
+.heading-typeC{
+	font-size: 14px;
+        line-height: 1.4em;
 }
-ol#numlist{
-    margin: 0px;
-    list-style-type: upper-latin;
+.articleDetailHaed{
+    border-bottom: solid 1px #CCC;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
 }
-.big{
-    font-size: 5.0em;
-    height: auto;
+.articleDetailFoot{
+    border-top: solid 1px #CCC;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+.articleDetailBody section{
+    margin: 30px 0;
+}
+.creditUnit{
+    padding:10px;
+    border: solid 1px #CCC;
+}
+.creditUnit p{
+    font-size: 12px;
+    line-height: 1.5em;
+}
+ul li{
+    font-size: 14px;
+    list-style-type: square;
+    line-height: 1.42em;
+}
+table{
+    font-size: 14px;
+    border: solid 1px #CCC;
+    border-collapse: collapse;
+    width: 100%;
+    line-height: 1.4em;
+}
+table caption{
+    text-align: left;
+    font-weight: bold;
+}
+table th, table td{
+    border: solid 1px #CCC;
+    padding: 5px 10px;
+}
+table th{
+    background-color: #EEE;
+    text-align: left;
 }

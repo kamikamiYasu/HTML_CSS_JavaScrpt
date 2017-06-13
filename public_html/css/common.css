@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
 body {
 	color: #333;
         font-family: "游ゴシック";
 }
+h1#siteTitle{
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    font-family: 'Noto Serif', serif;
+}
 
-
+p#catchcopy{
+    font-size: 12px;
+    line-height: 1.5em;
+    margin: 5px;
+}
 p {
 	font-size: 14px;
         line-height: 1.4em;
@@ -76,4 +88,12 @@ table th, table td{
 table th{
     background-color: #EEE;
     text-align: left;
+}
+
+figure{
+    margin: 0;
+}
+figcaption{
+    font-size: 12px;
+    font-weight: normal;
 }

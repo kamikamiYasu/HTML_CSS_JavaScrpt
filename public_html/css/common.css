@@ -11,16 +11,19 @@ h1#siteTitle{
     font-family: 'Noto Serif', serif;
 }
 
+p {
+	font-size: 14px;
+        line-height: 1.4em;
+}
 p#catchcopy{
     font-size: 12px;
     line-height: 1.5em;
     margin: 5px;
 }
-p {
-	font-size: 14px;
-        line-height: 1.4em;
+p#copyright small{
+    font-size: 12px;
+    line-height: 1.4em;
 }
-
 .pageTitle{
 	font-size: 26px;
         background-color: #F2F2E5;
@@ -96,4 +99,24 @@ figure{
 figcaption{
     font-size: 12px;
     font-weight: normal;
+}
+
+footer#pageFoot{
+    border-top: solid 1px #CCC;
+    margin-top: 15px;
+    clear: both;
+}
+div#page{
+    width: 980px;
+    margin: 0 auto;
+}
+div#pageBodyMain{
+    width: 720px;
+    float: left;
+    background-color: #6CF;
+}
+div#pageBodySub{
+    width: 220px;
+    float: right;
+    background-color: #9F6;
 }

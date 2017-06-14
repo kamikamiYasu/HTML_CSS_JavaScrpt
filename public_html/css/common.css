@@ -1,122 +1,169 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 
+/*レイアウト整形関連*/
 body {
 	color: #333;
         font-family: "游ゴシック";
 }
+a{
+    color: #996;
+}
+a:hover{
+    color: #960;
+}
+div#page{
+    width: 980px;
+    margin: 0 auto;
+}
+div#pageBody{
+   /* background-color: #FC6;
+    border: solid 1px #FF0000;*/
+   margin-top: 30px;
+}
+div#pageBody:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+div#pageBodyMain{
+    width: 720px;
+    float: left;
+}
+div#pageBodySub{
+    width: 220px;
+    float: right;
+}
+
+/*ページヘッダー*/
 h1#siteTitle{
     font-size: 20px;
     line-height: 1.2em;
     margin-bottom: 0;
     font-family: 'Noto Serif', serif;
 }
-
-p {
-	font-size: 14px;
-        line-height: 1.4em;
-}
 p#catchcopy{
     font-size: 12px;
     line-height: 1.5em;
     margin: 5px;
 }
+p {
+	font-size: 14px;
+        line-height: 1.4em;
+}
+
+/*ページフッター*/
 p#copyright small{
     font-size: 12px;
     line-height: 1.4em;
 }
-.pageTitle{
+footer#pageFoot{
+    border-top: solid 1px #CCC;
+    margin-top: 15px;
+}
+
+
+/*-----サブカラムの装飾-----*/
+#pageBodySub h2{
+    font-size: 16px;
+    line-height: 1.375em;
+    padding: 5px;
+    margin-top: 0px;
+    border-bottom: solid 1px #CCC;
+}
+#pageBodySub .newsList ul{
+    list-style: none;
+    padding: 0;
+}
+#pageBodySub .newsList ul li time{
+    font-weight: bold;
+    display: block;
+}
+
+
+/*-----メインカラムの装飾-----*/
+#pageBodyMain .pageTitle{
 	font-size: 26px;
         background-color: #F2F2E5;
         padding: 5px 15px;
         line-height: 1.2em;
+        margin-top: 0;
 }
-.heading-typeA{
+#pageBodyMain .heading-typeA{
 	font-size: 18px;
         color: #349FA6;
         border-bottom: solid 1px #349FA6;
         padding: 5px;
-        line-height: 1,33em;
+        line-height: 1.33em;
 }
-.heading-typeB{
+#pageBodyMain .heading-typeB{
 	font-size: 16px;
         border-left: solid 5px #E3E4D9;
         padding-left: 10px;
         line-height: 1.37em;
 }
-.heading-typeC{
+#pageBodyMain .heading-typeC{
 	font-size: 14px;
         line-height: 1.4em;
 }
-.articleDetailHaed{
+/*区切り線・余白*/
+#pageBodyMain .articleDetailHaed{
     border-bottom: solid 1px #CCC;
     margin-bottom: 30px;
     padding-bottom: 15px;
 }
-.articleDetailFoot{
+#pageBodyMain .articleDetailFoot{
     border-top: solid 1px #CCC;
     margin-top: 30px;
     padding-top: 15px;
 }
-.articleDetailBody section{
+#pageBodyMain .articleDetailBody section{
     margin: 30px 0;
 }
-.creditUnit{
+
+/*撮影情報*/
+#pageBodyMain .creditUnit{
     padding:10px;
     border: solid 1px #CCC;
 }
-.creditUnit p{
+#pageBodyMain .creditUnit p{
     font-size: 12px;
     line-height: 1.5em;
 }
-ul li{
+
+/*リスト*/
+#pageBodyMain ul li{
     font-size: 14px;
     list-style-type: square;
     line-height: 1.42em;
 }
-table{
+
+/*表*/
+#pageBodyMain table{
     font-size: 14px;
     border: solid 1px #CCC;
     border-collapse: collapse;
     width: 100%;
     line-height: 1.4em;
 }
-table caption{
+#pageBodyMain table caption{
     text-align: left;
     font-weight: bold;
 }
-table th, table td{
+#pageBodyMain table th, table td{
     border: solid 1px #CCC;
     padding: 5px 10px;
 }
-table th{
+#pageBodyMain table th{
     background-color: #EEE;
     text-align: left;
 }
 
-figure{
+/*画像関連*/
+#pageBodyMain figure{
     margin: 0;
 }
-figcaption{
+#pageBodyMain figcaption{
     font-size: 12px;
     font-weight: normal;
 }
 
-footer#pageFoot{
-    border-top: solid 1px #CCC;
-    margin-top: 15px;
-    clear: both;
-}
-div#page{
-    width: 980px;
-    margin: 0 auto;
-}
-div#pageBodyMain{
-    width: 720px;
-    float: left;
-    background-color: #6CF;
-}
-div#pageBodySub{
-    width: 220px;
-    float: right;
-    background-color: #9F6;
-}

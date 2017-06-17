@@ -4,7 +4,7 @@
 body {
 	color: #333;
         font-family: "游ゴシック";
-        background-image: url("../portfolio/images/bg1.png");
+        /*background-image: url("../portfolio/images/bg1.png");*/
 }
 a{
     color: #996;
@@ -64,7 +64,7 @@ p {
 
 #pageHead .globalNavi ul li{
     list-style: none;
-    width: 245px;
+    width: 25%;
     float: left;
     border-left: solid 1px #CCC;
     padding:0 10px;
@@ -84,10 +84,30 @@ p {
 #pageHead .globalNavi ul li a{
     color: inherit;
     text-decoration: none;
+    display: block;
+    padding: 5px 0;
 }
-#pageHead .globalNavi ul li a:hover{
+#pageHead .globalNavi ul li a:hover,
+#pageHead .globalNavi ul li.current a{
     background-color: #F2F2E5;
 }
+/*パンくずリスト*/
+.topicPath{
+    font-size: 12px;
+}
+/*ページの先頭へ戻る*/
+.pagetop{
+    font-size: 12px;
+    text-align: right;
+    margin-top: 30px;
+}
+.pagetop a{
+    background-image: url(",,/portfolio/images/ico_pagetop.png");
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding-left: 10px;
+}
+
 /*ページフッター*/
 p#copyright small{
     font-size: 12px;
@@ -180,6 +200,44 @@ footer#pageFoot{
     line-height: 1.5em;
 }
 
+/*「作ったもの」一覧ページ*/
+#pageBodyMain .articleList{
+    border: solid 1px #CCC;
+    margin-bottom: 30px;
+}
+#pageBodyMain .articleList a{
+    display: block;
+    padding: 10px;
+    color: inherit;
+    text-decoration: none;
+}
+#pageBodyMain .aritcleList a:hover{
+    opacity: 0.5;
+}
+#pageBodyMain .articleList a .articleListText{
+    width: 370px;
+    float: right;
+}
+#pageBodyMain .articleList a .articleListText h1{
+    font-size: 26px;
+    line-height: 30px;
+}
+#pageBodyMain .articleList a .articleListText p{
+    font-size: 14px;
+    line-height: 20px;
+}
+#pageBodyMain .aritcleList a .articleListImage{
+    width: 300px;
+    float: left;
+}
+#pageBodyMain .aritcleList a .articleListImage img{
+    vertical-align: bottom;
+}
+#pageBodyMain .aritcleList a:after{
+    content: "";
+    clear: both;
+    display: block;
+}
 /*リスト*/
 #pageBodyMain ul li{
     font-size: 14px;

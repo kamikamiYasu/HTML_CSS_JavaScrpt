@@ -200,6 +200,13 @@ footer#pageFoot{
     line-height: 1.5em;
 }
 
+#pageBodyMain .imageCenter{
+    text-align: center;
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 30px;
+    margin: 30px 0;
+}
+
 /*「作ったもの」一覧ページ*/
 #pageBodyMain .articleList{
     border: solid 1px #CCC;
@@ -211,13 +218,15 @@ footer#pageFoot{
     color: inherit;
     text-decoration: none;
 }
-#pageBodyMain .aritcleList a:hover{
-    opacity: 0.5;
+#pageBodyMain .articleList a:hover{
+    opacity: 0.7;
 }
+
 #pageBodyMain .articleList a .articleListText{
     width: 370px;
     float: right;
 }
+
 #pageBodyMain .articleList a .articleListText h1{
     font-size: 26px;
     line-height: 30px;
@@ -226,14 +235,14 @@ footer#pageFoot{
     font-size: 14px;
     line-height: 20px;
 }
-#pageBodyMain .aritcleList a .articleListImage{
+#pageBodyMain .articleList a .articleListImage{
     width: 300px;
     float: left;
 }
-#pageBodyMain .aritcleList a .articleListImage img{
+#pageBodyMain .articleList a .articleListImage img{
     vertical-align: bottom;
 }
-#pageBodyMain .aritcleList a:after{
+#pageBodyMain .articleList a:after{
     content: "";
     clear: both;
     display: block;

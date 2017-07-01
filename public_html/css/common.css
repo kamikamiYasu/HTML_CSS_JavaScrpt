@@ -272,6 +272,32 @@ footer#pageFoot{
     clear: both;
     display: block;
 }
+/*----「作ったもの」index-----*/
+#pageBody .portfolioindex{
+    margin-top: 40px;
+}
+#pageBody .portfolioindex:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+#pageBody .portfolioindex article{
+    width: 300px;
+    float: left;
+    margin-left: 40px;
+}
+#pageBody .portfolioindex article:first-child{
+    margin-left: 0;
+}
+#pageBody .portfolioindex article h2{
+    font-size: 18px;
+    margin: 5px 0;
+}
+#pageBody .portfolioindex article p{
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 1.5em;
+}
 
 /*-----トップページの内容-----*/
 #pageBody .mainVisual{
@@ -337,4 +363,6 @@ footer#pageFoot{
     font-size: 12px;
     font-weight: normal;
 }
+
+
 
